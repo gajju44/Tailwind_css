@@ -1,7 +1,8 @@
 # Node modules
 node_modules/
 
-
+# Build output
+public/styles.css
 
 # Log files
 npm-debug.log
@@ -12,7 +13,11 @@ yarn-error.log
 .DS_Store
 Thumbs.db
 
+# Tailwind config
+tailwind.config.js
 
+# PostCSS config
+postcss.config.js
 
 # Miscellaneous
 .idea/
