@@ -2,6 +2,8 @@
 
 
 - you can refer files in repo for some idea
+- you can also refer [ this site ](https://tailwindcss.com/docs/installation)
+
 
 
 # Run this commands on terminal after navigating to your working directory:
@@ -22,7 +24,7 @@
 ```
  /** @type {import('tailwindcss').Config} */
 module.exports = {
-  content: ["./public/**/*.{html,js,jsx}"],
+  content: ["./name/**/*.{html,js,jsx}"],
   theme: {
     extend: {},
   },
@@ -31,12 +33,12 @@ module.exports = {
 ```
 
 
-> Note: in above code src refers to the directory where you stored the code files like html,jsx etc so make sure to change it
-> you can add more than one ["./public/**/*.{html,js,jsx}"],["./public/**/*.{html,js,jsx}"] like this
+> Note: in above code name refers to the directory where you stored the code files like html,jsx etc so make sure to change it
+> you can add more than one ["./name1/**/*.{html,js,jsx}"],["./name2/**/*.{html,js,jsx}"] like this
 
 
 
-# add following code in index.css file in src directory:
+# add following code in style.css if you are in react you can add it to index.css file in src directory:
 
 ```
 @tailwind base;
@@ -45,7 +47,7 @@ module.exports = {
  ```
 
 
-#add following code in package.jason:
+#add following code in package.jason (no need in react):
 
 ```
 "scripts": {
@@ -55,10 +57,10 @@ module.exports = {
   }
 ```
 
-> make sure to change public directory name in above code which refers to the directory where we want to run code or where we stored them like html, etc.
+> you can add above code as it is 
 
 
-# after that run:
+# after that run (no need in react):
 
 ```
 npm run build:css
