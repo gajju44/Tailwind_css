@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tailwind Background Colors & Gradients</title>
+  <link href="../public/style.css" rel="stylesheet">
+</head>
+<body>
+  
+
+  <!-- Padding (p-40) is added around the content if we want to set padding at specific sides only so we have to use diffrent keywords we can check it on tailwind's site
+     (bg-red-500) means background color is set to red for this div with shade 500
+    
+     for width we use (w-size)which is set to 40 means 10 rem here
+    -->
+ 
+  <div class="bg-red-500 p-40 w-40 text-white ">This is a blue background</div>
+  
+
+  
+  
+
+  <!-- Gradient Background Section -->
+
+  <!-- To create a gradient background, we use bg-gradient-to-side classes -->
+
+  <!-- This div has a gradient background from right to left with blue (from-blue-500) and green (to-green-500) color-->
+
+  
+  <div class="bg-gradient-to-r from-blue-500 to-green-500 p-40 text-white">
+    Gradient from blue to green
+  </div>
+  
+  <!-- Gradient with 3 Color Section -->
+  
+  <div class="bg-gradient-to-r from-red-500 via-blue-500 to-purple-500 p-40 text-white">
+    Gradient from  red to blue to purple 
+  </div>
+  
+  <!-- Vertical Gradient Section -->
+
+  <!-- This div has a gradient background from bottom (from-blue-500) to top (to-green-500) -->
+  
+  <div class="bg-gradient-to-t from-blue-500 to-green-500 p-40 text-white">
+    Gradient from bottom to top
+  </div>
+  
+  <!-- Left-to-Right Gradient Section -->
+
+  <!-- This div has a gradient background from right (from-blue-500) to left (to-green-500) -->
+  
+
+  <div class="bg-gradient-to-l from-blue-500 to-green-500 p-40 text-white">
+    Gradient from right to left
+  </div>
+
+  
+</body>
+</html>
