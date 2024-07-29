@@ -1,6 +1,9 @@
 # Installation of Tailwind_css
 
 
+- you can refer files in repo for some idea
+
+
 # Run this commands on terminal after navigating to your working directory:
 
 ``` npm install -D tailwindcss@latest postcss@latest autoprefixer@latest```
