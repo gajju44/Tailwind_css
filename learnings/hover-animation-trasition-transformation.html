@@ -1,0 +1,49 @@
+<!-- :hover { background-color: #f00; }	is written as 'hover:bg-red-500;' in tailwind -->
+
+<!-- transform: scale(1.1); is written as 'scale-110' -->
+
+<!-- rotate(45deg) is written as 'rotate-45' -->
+
+
+<!-- transition-duration: 300ms; is written as 	duration-300 -->
+
+
+<!-- transition-delay: 100ms; is written as delay-100 -->
+
+
+<!-- transform: translateX(10px); is written as  translate-x-2.5 -->
+
+<!-- animation: spin 2s linear infinite; is written as  animate-spin -->
+
+
+
+<!-- Note: above are just example other animations etc we can check on tailwind's site -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tailwind Examples</title>
+  <link href="../public/style.css" rel="stylesheet">
+</head>
+<body class="flex items-center justify-center h-screen bg-gray-100">
+  <div class="space-y-4">
+    <button class="bg-blue-500 text-white p-4 rounded hover:bg-blue-700 transition duration-300">
+      Hover Me
+    </button>
+
+    <div class="w-32 h-32 bg-red-500 transition transform hover:scale-110">
+      Hover to Scale
+    </div>
+
+    <div class="w-32 h-32 bg-green-500 transform rotate-45">
+      Rotated Box
+    </div>
+
+    <div class="animate-spin bg-yellow-500 w-32 h-32">
+      Spinning Box
+    </div>
+  </div>
+</body>
+</html>
