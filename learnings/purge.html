@@ -1,0 +1,19 @@
+<!-- Note: we dont have to do this in latest tailwind version this is just for information  -->
+
+<!-- Purging in Tailwind refers to the process of removing unused CSS from your final build to reduce the file size. and improve performance -->
+
+<!-- this process is done after completion of the project -->
+
+
+<!-- to do purging we simply have to following configuration in tailwind.config.js -->
+
+module.exports = {
+    purge: [
+      './src/**/*.html', // Path to your HTML files here its learnings
+      './src/**/*.js',   // Path to your JavaScript files 
+      './src/**/*.jsx',  // Path to your JSX files (if using React)
+    ],
+    // Other Tailwind configuration options...
+  }
+
+<!-- in latest version purge is replaced by content keyword and jit mode is by default on that's why we don't have to do purge in latest versions -->
