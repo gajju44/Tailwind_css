@@ -1,0 +1,37 @@
+<!-- in Tailwind if we want to define a grid container we simply have to type 'grid' in class -->
+
+<!-- in tailwind  we use 'grid-cols-value' instead of ' grid-template-columns' and 'grid-rows-value' instead of 'grid-template-columns' -->
+
+<!-- Note:"values are predefined" we can check them on tailwind's site -->
+
+<!-- use 'gap-value' to give a gap between grid items -->
+
+<!-- 'col-span-value' to define how much a grid item should span -->
+
+<!-- 'col-start-value' to degine from which column a item should start from like wise we can use 'col-end-value' to define end of item span-->
+
+<!-- 'row-start-value','row-end-value' its same as above tows but diffrence is its for rows  -->
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GRID</title>
+    <link rel="stylesheet" href="../public/style.css">
+</head>
+<body>
+    <!-- don't get confused 'grid-container' this is a class if a class name is not predefined then its custom class name 'user defined' try to type it at first for clearity -->
+    
+    <div class="grid-container grid grid-cols-3 gap-4">
+        <div class="item item1 h-40  col-span-2 bg-blue-300">Item 1</div>
+        <div class="item item2 h-40  col-start-3 row-span-2 bg-green-300">Item 2</div>
+        <div class="item item3 h-40  col-start-1 bg-red-300">Item 3</div>
+        <div class="item item4 h-40  col-start-2 bg-yellow-300">Item 4</div>
+      </div>
+      
+</body>
+</html>
