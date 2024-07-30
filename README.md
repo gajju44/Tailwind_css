@@ -19,7 +19,9 @@ npx tailwindcss init
 
 
 # Ensure that tailwind is installed run: 
-``` npm tailwindcss -v ```
+```
+npm tailwindcss -v
+```
 
 
 
