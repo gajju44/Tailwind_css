@@ -8,9 +8,13 @@
 
 # Run this commands on terminal after navigating to your working directory:
 
-``` npm install -D tailwindcss@latest postcss@latest autoprefixer@latest```
+```
+npm install -D tailwindcss@latest postcss@latest autoprefixer@latest
+```
 
-``` npx tailwindcss init ```
+```
+npx tailwindcss init
+```
 
 
 
