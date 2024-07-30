@@ -1,0 +1,43 @@
+<!-- predefined breakpoints in tailwind: -->
+
+<!-- 
+sm: 640px 
+md: 768px
+lg: 1024px
+xl: 1280px
+2xl: 1536px 
+-->
+
+<!--
+sm: = Changes background color to blue on small screens (640px and up).
+md: = Changes background color to green on medium screens (768px and up).
+lg: = Changes background color to red on large screens (1024px and up).
+xl: = Changes background color to purple on extra-large screens (1280px and up).
+2xl: = Changes background color to yellow on 2x extra-large screens (1536px and up).
+ -->
+
+ <!-- means instead of writing '@media(max-width: 640px)' we will simply write 'sm' in tailwind  -->
+
+ <!-- Note : we can our custom break points -->
+
+
+
+ <!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tailwind Responsive Example</title>
+  <link href="../public/style.css" rel="stylesheet">
+</head>
+<body>
+  <div class="bg-gray-100 p-4 sm:bg-blue-100 md:bg-green-100 lg:bg-red-100 xl:bg-purple-100 2xl:bg-yellow-100">
+    <h1 class="text-base sm:text-lg md:text-xl lg:text-2xl xl:text-3xl 2xl:text-4xl">
+      Responsive Text
+    </h1>
+    <p class="text-xs sm:text-sm md:text-base lg:text-lg xl:text-xl 2xl:text-2xl">
+      This text size changes based on the screen size.
+    </p>
+  </div>
+</body>
+</html>
